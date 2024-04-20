@@ -1,0 +1,107 @@
+code-browser {
+    --line-color: #666;
+    --comment-color: #474747;
+    --special-symbol-color: rgb(177, 123, 23);
+    --keyword-color: rgb(166, 34, 32);
+    --identifier-color: rgb(166, 70, 32);
+    --string-color: rgb(221, 184, 65);
+    --function-identifier-color: rgb(13, 83, 147);
+
+    width: var(--width);
+    min-height: 50px;
+    max-height: var(--height);
+    background: #0005;
+    backdrop-filter: blur(8px);
+    border: #fff7 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+code-browser > tabs {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+code-browser > tabs > tab {
+    user-select: none;
+    background: #1d1d1d;
+    padding: 6px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+code-browser > code {
+    width: 95%;
+    margin-left: 2.5%;
+    min-height: 10px;
+    background: #1d1d1d;
+    margin-bottom: 15px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+code-browser > code > main-content {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+code-browser > code > main-content > line {
+    color: var(--line-color);
+    user-select: none;
+}
+
+code-browser > code {
+    font-size: 17px;
+}
+
+code-browser > code > main-content > content {
+    word-spacing: -7px;
+}
+
+code-browser > code > main-content > content > span.space {
+    padding-left: 10px;
+}
+
+code-browser > code > main-content > content > span.tab {
+    padding: 0px 20px;
+}
+
+
+code-browser > code > main-content > content > span.special-symbol {
+    color: var(--special-symbol-color);
+}
+
+code-browser > code > main-content > content > span.keyword {
+    color: var(--keyword-color);
+}
+
+code-browser > code > main-content > content > span.function-identifier {
+    color: var(--function-identifier-color);
+}
+
+code-browser > code > main-content > content > span.comment {
+    word-spacing: 0px;
+    color: var(--comment-color);
+}
+
+code-browser > code > main-content > content > span.string {
+    word-spacing: 0px;
+    color: var(--string-color);
+}
+
+code-browser > code > main-content > content > span.identifier {
+    color: var(--identifier-color);
+}
