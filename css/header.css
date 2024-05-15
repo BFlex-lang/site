@@ -29,7 +29,7 @@ header section {
 
 header section aside.container {
     width: 50%;
-    height: max-content;
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -42,15 +42,14 @@ header section aside.container aside.img {
 }
 
 header section aside.container aside.img img {
-    height: 4vh;
+    height: 5vh;
     width: max-content;
     border-radius: 5px;
 }
 
 header section aside.container aside.sections {
     margin-left: 4%;
-    width: max-content;
-    height: 100%;
+    display: inline;
 }
 
 header section aside.container aside.sections nav {
@@ -63,7 +62,7 @@ header section aside.container aside.sections nav a {
     gap: 10px;
     text-decoration: none;
     color: whitesmoke;
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: var(--OpenSans);
     font-weight: 500;
     transition-duration: .3s;

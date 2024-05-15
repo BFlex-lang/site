@@ -276,20 +276,27 @@
         gap: 2vh !important;
     }
 
+    main section.about aside.info aside.person aside.img {
+        height: 16vh !important;
+    }
+
     main section.about aside.info aside.person {
         width: 90vw !important;
+        max-height: max-content !important;
+        padding: 2vh 0;
+        gap: 10px !important;
     }
 
     main section.about aside.info aside.person aside.container h2 {
-        font-size: 1.5em !important;
+        font-size: 1.1em !important;
     }
 
     main section.about aside.info aside.person aside.container p {
-        font-size: .85em !important;
+        font-size: .72em !important;
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
-        width: 13vw !important;
+        width: 8vw !important;
     }
 
     /* footer */
@@ -389,7 +396,7 @@
     }
 
     main section.about h1 {
-        font-size: 2.5em !important;
+        font-size: 2.3em !important;
     }
 
     main section.about aside.info {
@@ -397,26 +404,31 @@
         min-height: 60%;
         max-height: max-content;
         display: flex;
-        flex-direction: column !important;
         justify-content: center !important;
-        flex-wrap: nowrap !important;
+        flex-wrap: wrap !important;
         gap: 2vh !important;
     }
 
+    main section.about aside.info aside.person aside.img {
+        height: 18vh !important;
+    }
+
     main section.about aside.info aside.person {
-        width: 90vw !important;
+        width: 70vw !important;
+        height: max-content !important;
+        gap: 10px !important;
     }
 
     main section.about aside.info aside.person aside.container h2 {
-        font-size: 1.5em !important;
+        font-size: 1.2em !important;
     }
 
     main section.about aside.info aside.person aside.container p {
-        font-size: .85em !important;
+        font-size: .7em !important;
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
-        width: 13vw !important;
+        width: 8vw !important;
     }
 
     /* download */
@@ -524,7 +536,7 @@
     }
 
     main section.about h1 {
-        font-size: 2.5em !important;
+        font-size: 2.3em !important;
     }
 
     main section.about aside.info {
@@ -532,26 +544,31 @@
         min-height: 60%;
         max-height: max-content;
         display: flex;
-
         justify-content: center !important;
         flex-wrap: wrap !important;
         gap: 2vh !important;
     }
 
+    main section.about aside.info aside.person aside.img {
+        height: 18vh !important;
+    }
+
     main section.about aside.info aside.person {
         width: 70vw !important;
+        min-height: max-content !important;
+        gap: 20px !important;
     }
 
     main section.about aside.info aside.person aside.container h2 {
-        font-size: 1.5em !important;
+        font-size: 1.2em !important;
     }
 
     main section.about aside.info aside.person aside.container p {
-        font-size: .85em !important;
+        font-size: .7em !important;
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
-        width: 10vw !important;
+        width: 8vw !important;
     }
 
     /* download */
@@ -631,23 +648,29 @@
     }
 
     main section.about h1 {
-        font-size: 2.5em !important;
+        font-size: 2em !important;
+    }
+
+    main section.about aside.info aside.person aside.img {
+        height: 17vh !important;
     }
 
     main section.about aside.info aside.person {
         width: 42vw !important;
+        height: 72vh !important;
+        gap: 10px !important;
     }
 
     main section.about aside.info aside.person aside.container h2 {
-        font-size: 1.3em !important;
+        font-size: 1.1em !important;
     }
 
     main section.about aside.info aside.person aside.container p {
-        font-size: .83em !important;
+        font-size: .75em !important;
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
-        width: 8vw !important;
+        width: 6vw !important;
     }
 
     /* footer */
@@ -883,6 +906,108 @@
         width: 4vw !important;
     }
 
+}
+
+/* about */
+
+@media only screen and (max-height: 450px) {
+
+    main {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 80vh !important;
+    }
+
+    header {
+        height: 12vh !important;
+    }
+
+    header section aside.container aside.img img {
+        height: 8vh !important;
+        width: max-content;
+        border-radius: 5px;
+    }    
+
+    header section aside.container aside.sections nav a {
+        font-size: 0.75em !important;
+    }
+
+    section#about {
+        align-items: flex-start !important;
+        overflow-y: scroll !important;
+        height: 80vh !important;
+        padding: 20px 0;
+    }
+
+    section#home {
+        align-items: flex-start !important;
+        overflow-y: scroll !important;
+        height: 100% !important;
+    }
+
+    section.home {
+        overflow-x: hidden !important;
+    }
+
+    section#download {
+        overflow: hidden;
+        height: 80vh !important;
+
+    }
+
+    section.home {
+        margin-top: 12px;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 2em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1.5em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .85em !important;
+    }
+
+    main section.about h1 {
+        font-size: 1.8em !important;
+    }
+
+    main section.home aside.example section.code aside.select {
+        height: 20% !important;
+    }
+
+    main section.home aside.example section.code {
+        width: 39.8vw;
+        height: 50vh !important;
+        background-color: rgb(32, 31, 31);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+        border-radius: 15px;
+        border: 2px solid rgba(105, 105, 105, 0.801);
+        transition: .8s;
+    }
+
+    main section.about aside.info aside.person aside.img {
+        height: 20vh !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 90vw !important;
+        min-height: 80vh !important;
+        max-height: 100vh !important;
+        padding: 2vh 0;
+        gap: 10px !important;
+    }
+
+    footer {
+        height: 8vh !important;
+    }
+
+    footer section nav a svg {
+        width: 1.8vw !important;
+    }
 }
 
 /* menu */

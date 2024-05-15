@@ -7,7 +7,7 @@
     padding: 0;
     -webkit-user-drag: none;
     user-select: none;
-    box-sizing: content-box;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
