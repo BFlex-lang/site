@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url(variables.css);
+
+section#about {
+    min-height: 88vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.about {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section.about h1 {
+    margin-bottom: 1vh;
+    text-indent: 4px;
+    color: rgba(245, 245, 245, 0.87);
+    font-family: var(--Ubuntu);
+    font-size: 3em;
+    font-weight: 500;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.185);
+}
+
+main section.about aside.info {
+    width: 100%;
+    min-height: 60%;
+    max-height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+main section.about aside.info aside.person {
+    width: 20vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+    height: 60vh;
+    background-color: rgba(160, 158, 158, 0.774);
+    border-radius: 12px;
+    transition-duration: .8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6%;
+}
+
+main section.about aside.info aside.person:hover {
+    border-radius: 15px;
+    background-color: rgba(160, 158, 158, 0.877);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+}
+
+main section.about aside.info aside.person aside.img {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.about aside.info aside.person aside.img img {
+    margin-top: 5vh;
+    border: 2.5px solid rgb(155, 155, 155);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+    height: 80%;
+    border-radius: 50%;
+}
+
+main section.about aside.info aside.person aside.container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main section.about aside.info aside.person aside.container h2 {
+    color: rgba(223, 222, 222, 0.925);
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.26);
+    font-family: var(--OpenSans);
+    font-size: 1.8rem;
+}
+
+main section.about aside.info aside.person aside.container p {
+    color: rgb(56, 54, 54);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.253);
+    font-family: var(--OpenSans);
+    font-size: .9em;
+}
+
+main section.about aside.info aside.person aside.container div.socialMedia {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+
+main section.about aside.info aside.person aside.container div.socialMedia a {
+    width: 2.4vw;
+    display: flex;
+}
+
+main section.about aside.info aside.person aside.container div.socialMedia a svg.github {
+    width: 100%;
+    color: #4e3c6e;
+    transition-duration: .8s;
+}
+
+main section.about aside.info aside.person aside.container div.socialMedia a:hover svg.github {
+    width: 100%;
+    color: #604886;
+}

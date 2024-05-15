@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url(variables.css);
+
+
+span#hashtag.symble {
+    color: var(--HashtagSymble) !important;
+}
+
+span.keyword,
+span.operator,
+span.symble {
+    color: var(--KeywordOperatorSymble) !important;
+}
+
+span.string {
+    color: var(--String) !important;
+}
+
+span#std.identifier,
+span#main.identifier {
+    color: #189ba0 !important;
+}
+
+span.type {
+    color: var(--Type) !important;
+}
+
+span.identifier {
+    color: var(--Identifier) !important;
+}

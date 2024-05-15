@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url(variables.css);
+
+footer {
+    height: 6vh;
+    width: 100vw;
+    user-select: none;
+    background: var(--footerBackground);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer::before {
+    content: '';
+    height: 1.5px;
+    width: 98%;
+    border-radius: 5px;
+    background-color: rgba(167, 167, 167, 0.692);
+    position: absolute;
+    top: 0;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+}
+
+footer section h2 {
+    color: whitesmoke;
+    font-family: var(--OpenSans);
+    font-weight: 400;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section h2 svg {
+    height: 1vw;
+}
+
+footer section nav {
+    height: 100%;
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer section nav a {
+    height: 100%;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer section nav a svg {
+    width: 2vw;
+    color: whitesmoke;
+    transition-duration: .8s;
+}
+
+footer section nav a:hover svg {
+    color: #876db8;
+}

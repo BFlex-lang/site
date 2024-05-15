@@ -1,5 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: Open_Sans;
@@ -11,11 +21,17 @@
     src: url(../fonts/Operator/OperatorMono-Medium.otf);
 }
 
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf);
+}
+
 @layer general {
     :root {
         --OpenSans: Open_Sans;
         --Ubuntu: Ubuntu;
-        --codeFont: Operator;
+        --codeFont: "JetBrains Mono";
+        --Oswald: Oswald;
     }
 }
 
@@ -31,6 +47,8 @@
     :root {
         --HashtagSymble: #c19958;
         --KeywordOperatorSymble: #ae4472;
-        
+        --String: #a2d177;
+        --Type: #c19958;
+        --Identifier: #945e47;
     }
 }

@@ -1,0 +1,964 @@
+@charset "UTF-8";
+@import url(variables.css);
+
+/* 
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
+
+/* general */
+
+@media only screen and (max-width: 259px) {
+
+    /* header */
+
+    header section aside.container aside.sections {
+        display: none !important;
+    }
+
+    /* main */
+
+    main {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    /* Introduction */
+
+    main section#home {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+        margin-bottom: 4vh;
+    }
+
+    main section.home {
+        height: max-content !important;
+        display: block !important;
+        margin-top: 2vh !important;
+    }
+
+    main section.home aside.info div.updates span.title p {
+        font-size: .7em !important;
+    }
+
+    main section.home aside.info div.updates {
+        gap: 2.6vw !important;
+    }
+
+    main section.home aside.info {
+        max-width: 95vw !important;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 1.6em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .8em !important;
+    }
+
+    main section.home aside.info a {
+        height: 35px !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 95vw !important;
+        height: 30vh !important;
+    }
+
+    main section.home aside.example section.code aside.code code {
+        max-width: 90%;
+    }
+
+    main section.home aside.example section.code aside.code code span {
+        font-size: .7em !important;
+        max-width: 90%;
+    }
+
+    main section.home aside.example section.code aside.select {
+        height: 16% !important;
+    }
+
+
+    /* download */
+
+    section#download section.container h1 {
+        font-size: 2em !important;
+    }
+
+    section#download section.container h1 span.two {
+        margin-left: 18px !important;
+    }
+
+    section#download section.container h1 span.three {
+        margin-left: 32px !important;
+    }
+
+    /* about */
+
+    main section#about {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+    }
+
+    main section.about h1 {
+        font-size: 2em !important;
+    }
+
+    main section.about aside.info {
+        width: 100%;
+        min-height: 60%;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        flex-wrap: nowrap !important;
+        gap: 2vh !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 90vw !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.2em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .75em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 15vw !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 8vw !important;
+    }
+
+    footer section h2 svg {
+        height: 6vw !important;
+    }
+
+}
+
+@media only screen and (min-width: 260px) and (max-width: 284px) {
+
+    /* header */
+
+    header section aside.container aside.sections {
+        display: none !important;
+    }
+
+    /* main */
+
+    main {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    /* Introduction */
+
+    main section#home {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+    }
+
+    main section.home {
+        height: max-content !important;
+        display: block !important;
+        margin-top: 2vh !important;
+    }
+
+    main section.home aside.info div.updates span.title p {
+        font-size: .7em !important;
+    }
+
+    main section.home aside.info div.updates {
+        gap: 2.6vw !important;
+    }
+
+    main section.home aside.info {
+        max-width: 95vw !important;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 1.6em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .8em !important;
+    }
+
+    main section.home aside.info a {
+        height: 35px !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 90vw !important;
+        height: 30vh !important;
+    }
+
+    main section.home aside.example section.code aside.code code span {
+        font-size: .82em !important;
+    }
+
+    main section.home aside.example section.code aside.select {
+        height: 18% !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 95vw !important;
+        height: 30vh !important;
+    }
+
+    /* download */
+
+    section#download section.container h1 {
+        font-size: 2em !important;
+    }
+
+    section#download section.container h1 span.two {
+        margin-left: 18px !important;
+    }
+
+    section#download section.container h1 span.three {
+        margin-left: 32px !important;
+    }
+
+    /* about */
+
+    main section#about {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+    }
+
+    main section.about h1 {
+        font-size: 2.5em !important;
+    }
+
+    main section.about aside.info {
+        width: 100%;
+        min-height: 60%;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        flex-wrap: nowrap !important;
+        gap: 2vh !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 90vw !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.5em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .85em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 13vw !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 8vw !important;
+    }
+
+    footer section h2 svg {
+        height: 6vw !important;
+    }
+
+}
+
+@media only screen and (min-width: 285px) and (max-width: 315px) {
+
+    /* header */
+
+    header section aside.container aside.sections {
+        display: none !important;
+    }
+
+    /* main */
+
+    main {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    /* Introduction */
+    main section#home {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        min-height: 88vh !important;
+        width: 100vw !important;
+    }
+
+    main section.home {
+        height: max-content !important;
+        display: block !important;
+        margin-top: 2.5vh !important;
+    }
+
+    main section.home aside.info div.updates span.title p {
+        font-size: .7em !important;
+    }
+
+    main section.home aside.info div.updates {
+        gap: 2.6vw !important;
+    }
+
+    main section.home aside.info {
+        max-width: 95vw !important;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 1.8em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1.1em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .8em !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 90vw !important;
+        height: 30vh !important;
+    }
+
+    main section.home aside.example section.code aside.code code span {
+        font-size: .9em !important;
+    }
+
+    main section.home aside.example section.code aside.select {
+        height: 18% !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 95vw !important;
+        height: 30vh !important;
+    }
+
+    /* about */
+
+    main section#about {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+    }
+
+    main section.about h1 {
+        font-size: 2.5em !important;
+    }
+
+    main section.about aside.info {
+        width: 100%;
+        min-height: 60%;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        flex-wrap: nowrap !important;
+        gap: 2vh !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 90vw !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.5em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .85em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 13vw !important;
+    }
+
+    /* download */
+
+    section#download section.container h1 {
+        font-size: 2.4em !important;
+    }
+
+    section#download section.container h1 span.two {
+        margin-left: 20px !important;
+    }
+
+    section#download section.container h1 span.three {
+        margin-left: 35px !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 7vw !important;
+    }
+
+    footer section h2 svg {
+        height: 5.4vw !important;
+    }
+
+}
+
+@media only screen and (min-width: 316px) and (max-width: 480px) {
+    /* header */
+
+    header section aside.container aside.sections {
+        display: none !important;
+    }
+
+    /* main */
+
+    main {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    /* Introduction */
+
+    main section#home {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        min-height: 88vh !important;
+        width: 100vw !important;
+    }
+
+    main section.home {
+        height: max-content !important;
+        display: block !important;
+        margin-top: 2.5vh !important;
+    }
+
+    main section.home aside.info div.updates span.title p {
+        font-size: .7em !important;
+    }
+
+    main section.home aside.info div.updates {
+        gap: 2.6vw !important;
+    }
+
+    main section.home aside.info {
+        max-width: 90vw !important;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 1.8em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1.1em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .8em !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 90vw !important;
+        height: 30vh !important;
+    }
+
+    main section.home aside.example section.code aside.code code span {
+        font-size: .95em !important;
+    }
+
+    main section.home aside.example section.code aside.select {
+        height: 18% !important;
+    }
+
+    /* about */
+
+    main section#about {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+    }
+
+    main section.about h1 {
+        font-size: 2.5em !important;
+    }
+
+    main section.about aside.info {
+        width: 100%;
+        min-height: 60%;
+        max-height: max-content;
+        display: flex;
+
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 2vh !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 70vw !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.5em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .85em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 10vw !important;
+    }
+
+    /* download */
+
+    section#download section.container h1 {
+        font-size: 2.4em !important;
+    }
+
+    section#download section.container h1 span.two {
+        margin-left: 20px !important;
+    }
+
+    section#download section.container h1 span.three {
+        margin-left: 35px !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 6vw !important;
+    }
+
+    footer section h2 svg {
+        height: 4.5vw !important;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 620px) {
+    /* Introduction */
+
+    main section#home {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw;
+    }
+
+    main section.home {
+        display: block !important;
+        margin-top: 2.5vh !important;
+        height: max-content !important;
+    }
+
+    main section.home aside.info {
+        max-width: 80vw !important;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 2.2em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1.2em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .8em !important;
+    }
+
+    main section.home aside.example section.code {
+        margin-top: 2.5vh !important;
+        width: 80vw !important;
+        height: 30vh !important;
+    }
+
+    /* about */
+
+    main section#about {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+        padding: 20px 0px !important;
+    }
+
+    main section.about h1 {
+        font-size: 2.5em !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 42vw !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.3em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .83em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 8vw !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 5vw !important;
+    }
+
+    footer section h2 svg {
+        height: 3vw !important;
+    }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 750px) {
+    /* Introduction */
+
+    main section.home aside.info {
+        max-width: 40% !important;
+        height: 100%;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 2.2em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1.2em !important;
+    }
+
+    main section.home aside.info p {
+        font-size: .8em !important;
+    }
+
+    main section.home aside.example section.code {
+        width: 50vw !important;
+        height: 80% !important;
+    }
+
+    /* About */
+
+    section#about {
+        min-height: 100%;
+        max-height: max-content;
+        padding: 3vh 0vw !important;
+        width: 100vw;
+        display: flex !important;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+
+    main section.about aside.info {
+        display: flex;
+        word-wrap: break-word;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 25vw !important;
+        height: 55vh !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1rem !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .6rem !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 5vw !important;
+    }
+
+    /* about */
+
+    main section#about {
+        display: flex;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: max-content !important;
+        width: 100vw !important;
+        padding: 20px 0px !important;
+    }
+
+    main section.about h1 {
+        font-size: 2.5em !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 42vw !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.6em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .83em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 7vw !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 4vw !important;
+    }
+
+    footer section h2 svg {
+        height: 2vw !important;
+    }
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 900px) {
+
+    /* Introduction */
+
+    main section.home aside.info div.updates span.description p {
+        font-size: .9em !important;
+        gap: 3vw !important;
+    }
+
+    main section.home aside.info {
+        max-width: 40% !important;
+        height: 100%;
+    }
+
+    main section.home aside.info h1 {
+        font-size: 2.5em !important;
+    }
+
+    main section.home aside.info h2 {
+        font-size: 1.5em !important;
+    }
+
+    main section.home aside.example section.code {
+        width: 42vw !important;
+        height: 70% !important;
+    }
+
+    /* About */
+
+    section#about {
+        min-height: 100%;
+        max-height: max-content;
+        padding: 3vh 0vw !important;
+        width: 100vw;
+        display: flex !important;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+
+    main section.about aside.info {
+        display: flex;
+        word-wrap: break-word;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    main section.about aside.info aside.person {
+        width: 30vw !important;
+        height: 55vh !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.4em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .74em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 5vw !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 3vw !important;
+    }
+
+    footer section h2 svg {
+        height: 2vw !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+    /* Introduction */
+
+    main section.home aside.example section.code aside.select nav button.selected {
+        font-size: .8em !important;
+    }
+
+    /* About */
+
+    section#about {
+        min-height: 100%;
+        max-height: max-content;
+        padding: 3vh 0vw !important;
+        width: 100vw;
+        display: flex !important;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+
+    main section.about aside.info {
+        display: flex;
+        word-wrap: break-word;
+        flex-wrap: wrap;
+    }
+
+    main section.about aside.info aside.person {
+        width: 20vw !important;
+        height: 55vh !important;
+    }
+
+    main section.about aside.info aside.person aside.container h2 {
+        font-size: 1.4em !important;
+    }
+
+    main section.about aside.info aside.person aside.container p {
+        font-size: .74em !important;
+    }
+
+    main section.about aside.info aside.person aside.container div.socialMedia a {
+        width: 4vw !important;
+    }
+
+}
+
+/* menu */
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        position: fixed !important;
+        top: 0 !important;
+        background-color: #0d121ce8 !important;
+    }
+
+    header section aside.container {
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+
+    header section aside.container aside.sections {
+        display: none !important;
+    }
+
+    header aside.menu {
+        position: relative;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        height: 80%;
+        width: 35px;
+        z-index: 9;
+    }
+
+    header aside.menu span {
+        height: 2px;
+        width: 90%;
+        background-color: whitesmoke;
+        transition-duration: .8s;
+    }
+
+    header aside.menu.active span.one {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: rotate(45deg) translateY(-50%);
+    }
+
+    header aside.menu span.two {
+        opacity: 1;
+        transition-duration: 0s;
+    }
+
+    header aside.menu.active span.two {
+        opacity: 0;
+    }
+
+    header aside.menu.active span.three {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: rotate(135deg) translateY(-50%);
+    }
+
+    menu {
+        display: block !important;
+    }
+
+    main {
+        margin-top: 6.2vh !important;
+    }
+
+    section.about {
+        margin-top: 6.2vh !important;
+    }
+
+}
