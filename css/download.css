@@ -2,7 +2,7 @@
 @import url(variables.css);
 
 section#download {
-    height: 90vh;
+    min-height: 90vh;
     width: 100vw;
     overflow: hidden;
     display: flex;
