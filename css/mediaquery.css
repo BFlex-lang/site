@@ -897,6 +897,11 @@
 
 @media only screen and (max-height: 400px) {
 
+    main section#home {
+        margin-top: 2.5vh !important;
+        align-items: flex-start !important;
+    }
+
     main section.about aside.info aside.person {
         height: 120vh !important;
     }
