@@ -713,11 +713,11 @@
     }
 
     main section.about aside.info aside.person aside.container h2 {
-        font-size: 1rem !important;
+        font-size: .9rem !important;
     }
 
     main section.about aside.info aside.person aside.container p {
-        font-size: .6rem !important;
+        font-size: .55rem !important;
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
@@ -893,6 +893,27 @@
         width: 4vw !important;
     }
 
+}
+
+@media only screen and (max-height: 400px) {
+
+    main section.about aside.info aside.person {
+        height: 120vh !important;
+    }
+
+    /* footer */
+
+    footer section nav a svg {
+        width: 1.9vw !important;
+    }
+
+    footer section h2 {
+        font-size: .65em !important;
+    }
+
+    footer section h2 svg {
+        height: 1.5vw !important;
+    }
 }
 
 /* menu */
