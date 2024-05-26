@@ -24,6 +24,7 @@
     main {
         display: block !important;
         margin: 0 !important;
+        height: fit-content !important;
     }
 
     /* Introduction */
@@ -171,6 +172,7 @@
     main {
         display: block !important;
         margin: 0 !important;
+        height: fit-content !important;
     }
 
     /* Introduction */
@@ -317,6 +319,7 @@
     main {
         display: block !important;
         margin: 0 !important;
+        height: fit-content !important;
     }
 
     /* Introduction */
@@ -445,7 +448,7 @@
 
 }
 
-@media only screen and (min-width: 316px) and (max-width: 480px) {
+@media only screen and (min-width: 316px) and (max-width: 620px) {
     /* header */
 
     header section aside.container aside.sections {
@@ -457,6 +460,7 @@
     main {
         display: block !important;
         margin: 0 !important;
+        height: fit-content !important;
     }
 
     /* Introduction */
@@ -580,90 +584,12 @@
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 620px) {
-    
-    /* Introduction */
-
-    main section#home {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start !important;
-        height: max-content !important;
-        width: 100vw;
-    }
-
-    main section.home {
-        display: block !important;
-        margin-top: 2.5vh !important;
-        height: max-content !important;
-    }
-
-    main section.home aside.info {
-        max-width: 80vw !important;
-    }
-
-    main section.home aside.info h1 {
-        font-size: 2.2em !important;
-    }
-
-    main section.home aside.info h2 {
-        font-size: 1.2em !important;
-    }
-
-    main section.home aside.info p {
-        font-size: .8em !important;
-    }
-
-    main section.home aside.example section.code {
-        margin-top: 2.5vh !important;
-        width: 80vw !important;
-        height: 30vh !important;
-    }
-
-    /* about */
-
-    main section#about {
-        display: flex;
-        justify-content: center !important;
-        align-items: flex-start !important;
-        height: max-content !important;
-        width: 100vw !important;
-        padding: 20px 0px !important;
-    }
-
-    main section.about h1 {
-        font-size: 2.2em !important;
-    }
-
-    main section.about aside.info aside.person {
-        width: 42vw !important;
-        height: 80vh !important;
-    }
-
-    main section.about aside.info aside.person aside.container h2 {
-        font-size: 1.3em !important;
-    }
-
-    main section.about aside.info aside.person aside.container p {
-        font-size: .83em !important;
-    }
-
-    main section.about aside.info aside.person aside.container div.socialMedia a {
-        width: 8vw !important;
-    }
-
-    /* footer */
-
-    footer section nav a svg {
-        width: 5vw !important;
-    }
-
-    footer section h2 svg {
-        height: 3vw !important;
-    }
-}
-
 @media only screen and (min-width: 621px) and (max-width: 750px) {
+    main {
+        height: fit-content !important;
+    }
+
+
     /* Introduction */
 
     main section.home aside.info {
@@ -713,11 +639,11 @@
     }
 
     main section.about aside.info aside.person aside.container h2 {
-        font-size: .9rem !important;
+        font-size: 1rem !important;
     }
 
     main section.about aside.info aside.person aside.container p {
-        font-size: .55rem !important;
+        font-size: .6rem !important;
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
@@ -847,7 +773,7 @@
 }
 
 
-@media only screen and (min-width: 900px) and (max-width: 1300px) {
+@media only screen and (min-width: 900px) and (max-width: 1450px) {
     /* Introduction */
 
     main section.home aside.example section.code aside.select nav button.selected {
@@ -890,35 +816,9 @@
     }
 
     main section.about aside.info aside.person aside.container div.socialMedia a {
-        width: 4vw !important;
+        width: 3vw !important;
     }
 
-}
-
-@media only screen and (max-height: 400px) {
-
-    main section#home {
-        margin-top: 2.5vh !important;
-        align-items: flex-start !important;
-    }
-
-    main section.about aside.info aside.person {
-        height: 120vh !important;
-    }
-
-    /* footer */
-
-    footer section nav a svg {
-        width: 1.9vw !important;
-    }
-
-    footer section h2 {
-        font-size: .65em !important;
-    }
-
-    footer section h2 svg {
-        height: 1.5vw !important;
-    }
 }
 
 /* menu */
