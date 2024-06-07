@@ -8,7 +8,7 @@ body {
     max-height: max-content;
     overflow-x: hidden;
     background-repeat: no-repeat;
-    background-image: url(../img/sitebg.png);
+    background-image: url(../img/sitebg.webp);
     animation: background 5s ease-in-out infinite;
     z-index: 0;
 }

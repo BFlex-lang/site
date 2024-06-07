@@ -74,8 +74,8 @@ main section.home aside.info div.updates span.description p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4vw;
-    font-size: 1em;
+    gap: .8vw;
+    font-size: .9em;
     color: whitesmoke;
     font-family: var(--OpenSans);
     font-weight: 400;
@@ -93,7 +93,7 @@ main section.home aside.info h1 {
     margin-top: 10px;
     color: white;
     font-family: var(--Ubuntu);
-    font-size: 3em;
+    font-size: 2.1em;
     font-weight: 500;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.39);
 }
@@ -102,7 +102,7 @@ main section.home aside.info h2 {
     color: #d1ccdb;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.39);
     font-family: var(--Ubuntu);
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: 500;
     margin-top: 12px;
 }
@@ -120,6 +120,7 @@ main section.home aside.info p {
     color: rgba(245, 245, 245, 0.733);
     margin-top: 1vh;
     font-family: var(--OpenSans);
+    font-size: .9em;
     font-weight: 600;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
 }
@@ -160,7 +161,7 @@ main section.home aside.example {
 
 main section.home aside.example section.code {
     width: 39.8vw;
-    height: 90%;
+    height: 100%;
     background-color: rgb(32, 31, 31);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
     border-radius: 15px;
