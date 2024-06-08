@@ -1,5 +1,5 @@
-var menuButton = document.querySelector("aside.menu");
-var menu = document.getElementById("menu");
+const menuButton = document.querySelector("aside.menu");
+const menu = document.getElementById("menu");
 
 menuButton.addEventListener("click", () => {
     menuButton.classList.toggle("active");

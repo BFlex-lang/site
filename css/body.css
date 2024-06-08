@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-image: url(../img/sitebg.webp);
+    opacity: 1;
     animation: background 5s ease-in-out infinite;
     z-index: 0;
 }
