@@ -1,318 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+  <html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon/logo.webp" type="image/x-icon">
-    <link rel="stylesheet" href="css/load.css">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/introduction.css">
-    <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/download.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/mediaquery.css">
-    <meta name="theme-color" content="#7359A4">
-    <meta name="keywords"
-        content="low-level, low, high-level, high, mid-level, mid, programming, coding, developers, devs, rust, go, bflex, lang, language, assembly, c, zig, eduardo, bandeira, palhano, lucas, felix, silveira">
-    <meta name="author" content="BFlex corp.">
-    <meta property="og:title" content="BFlex programming language">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bflex.tech/">
-    <meta property="og:image" content="https://bflex.tech/img/banner.webp">
-    <meta property="og:description"
-        content="Ken Thompson and Dennis Ritchie pioneered the C programming language and the UNIX operating system, which revolutionized personal computing with their efficiency and simplicity. Inspired by these pioneers, a new language called BFlex emerges. Named 'B' after Ken Thompson, who also contributed to the creation of Go, BFlex builds on its predecessors, Go and Rust, leveraging their robust frameworks and innovative features.">
-    <meta name="description"
-        content="Ken Thompson and Dennis Ritchie pioneered the C programming language and the UNIX operating system, which revolutionized personal computing with their efficiency and simplicity. Inspired by these pioneers, a new language called BFlex emerges. Named 'B' after Ken Thompson, who also contributed to the creation of Go, BFlex builds on its predecessors, Go and Rust, leveraging their robust frameworks and innovative features.">
-    <meta property="og:site_name" content="BFlex">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://bflex.tech">
-    <meta name="twitter:title" content="BFlex programming language">
-    <meta name="twitter:description"
-        content="Ken Thompson and Dennis Ritchie pioneered the C programming language and the UNIX operating system, which revolutionized personal computing with their efficiency and simplicity. Inspired by these pioneers, a new language called BFlex emerges. Named 'B' after Ken Thompson, who also contributed to the creation of Go, BFlex builds on its predecessors, Go and Rust, leveraging their robust frameworks and innovative features.">
-    <meta name="twitter:image:src" content="https://bflex.tech/img/banner.webp">
-    <meta name="next-head-count" content="16">
-    <title>BFlex</title>
-</head>
-
-<body>
-
-
-    <section id="loading">
-        <aside class="load">
-            <div class="load"></div>
-            <div class="logo">
-                <img src="img/logonobg.webp" alt="logo of bflex">
-            </div>
-        </aside>
-
-        <aside class="description"></aside>
-
-        <script>
-            function toggle() {
-                setTimeout(() => {
-                    document.querySelector("div.load").classList.add("opacity");
-
-                    setTimeout(() => {
-                        document.querySelector("div.load").classList.add("none");
-                        document.querySelector("div.logo").classList.add("block");
-                    }, 850)
-                    
-
-                    setTimeout(() => {
-                        document.getElementById("loading").remove()
-                        document.getElementById("load").classList.add("loaded");
-                    }, 2600)
-                }, 1000)
-            }
-
-        </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <section id="top">
+      <div class="side-a"></div>
+      <div class="side-b">
+        <div class="text">
+          <h1>Inovação e ação.</h1>
+          <h2>Programação simplificada!</h2>
+          <h3>Faça como os jovens desenvolvedores da BFlex, que utilizam nossas soluções inovadoras para transformar suas ideias em projetos reais. Nossos produtos foram projetados para simplificar o desenvolvimento, oferecendo ferramentas poderosas e intuitivas. Com a BFlex, você pode impulsionar seus projetos e alcançar novos patamares de criatividade e eficiência.</h3>
+          <button class="type-1" onclick="location.href = 'https://github.com/BFlex-financial'">Saiba mais</button>
+          <button class="type-2 space" onclick="location.href = 'https://github.com/orgs/BFlex-financial/repositories'">Conheça nossos produtos</button>
+        </div>
+      </div>
+      <div class="side-c"></div>
     </section>
-
-
-    <div id="load">
-        <header>
-            <section>
-                <aside class="container">
-                    <aside class="img"
-                        onclick="document.getElementById('main').style.marginLeft = '0'; document.getElementById('home').scrollIntoView();">
-                        <img src="img/logonobg.webp" alt="Bflex language logo">
-                    </aside>
-                    <aside class="sections">
-                        <nav>
-                            <a href="." id="homeButton">Introduction</a>
-                            <a href="." id="aboutButton">About</a>
-                            <a href="." id="downloadButton">Download</a>
-                            <a href=".">Updates <i class="gg-arrow-top-right"></i></a>
-                            <a href=".">Docs <i class="gg-arrow-top-right"></i></a>
-                        </nav>
-                    </aside>
-                    <aside class="menu">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                        <span class="three"></span>
-                    </aside>
-                </aside>
-            </section>
-        </header>
-        <menu id="menu">
-            <div>
-                <nav>
-                    <a href="."
-                        onclick="scroll(event); function scroll(event) {event.preventDefault(); document.querySelector('html').scrollTop = 0; menuButton.classList.remove('active'); menu.classList.remove('open');}">Introduction</a>
-                    <a href="."
-                        onclick="scroll(event); function scroll(event) {event.preventDefault(); document.getElementById('about').scrollIntoView(); menuButton.classList.remove('active'); menu.classList.remove('open');} ">About</a>
-                    <a href="."
-                        onclick="scroll(event); function scroll(event) {event.preventDefault(); document.getElementById('download').scrollIntoView(); menuButton.classList.remove('active'); menu.classList.remove('open');} ">Download</a>
-                    <a href=".">Updates <i class="gg-arrow-top-right"></i></a>
-                    <a href=".">Docs <i class="gg-arrow-top-right"></i></a>
-                </nav>
+    <section id="products">
+      <div class="side-a"></div>
+      <div class="side-b">
+        <div class="embed" style="--color: #843057;">
+          <div class="icon">
+            <div class="bg">
+              <ion-icon name="card-outline"></ion-icon>
             </div>
-        </menu>
-        <main id="main">
-            <section id="home">
-                <section class="home">
-                    <aside class="info">
-                        <div class="updates">
-                            <span class="title">
-                                <p>Updates</p>
-                            </span>
-                            <span class="description">
-                                <p>Coming soon...<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
-                                            fill="currentColor" />
-                                    </svg></p>
-                            </span>
-                        </div>
-                        <h1>BFlex</h1>
-                        <h2>
-                            Fast, Modern, We are <span>BFlex</span>
-                        </h2>
-                        <p>
-                            Ken Thompson and Dennis Ritchie pioneered the C programming language and the UNIX operating
-                            system, which revolutionized personal computing with their efficiency and simplicity.
-                            Inspired
-                            by these pioneers, a new language called BFlex emerges. Named 'B' after Ken Thompson, who
-                            also
-                            contributed to the creation of Go, BFlex builds on its predecessors, Go and Rust, leveraging
-                            their robust frameworks and innovative features.
-                        </p>
-                        <a class="download" href=".">Download BFlex</a>
-                    </aside>
-                    <aside class="example">
-                        <section class="code">
-                            <aside class="select">
-                                <nav>
-                                    <button class="selected">Hello World</button>
-                                </nav>
-                            </aside>
-                            <aside class="code">
-                                <code>
-                                    <pre id="code" style="display: none;">
-                                        <span>1</span> <d></d> #import std::"io"::*.?;
-                                        <span>2</span> <d></d>
-                                        <span>3</span> <d></d> fun main(): Void {
-                                        <span>4</span> <d></d>     cout << "Hello World!";
-                                        <span>5</span> <d></d> }
-                                        </pre>
-                                        <pre id="code_"></pre>
-                                </code>
-                            </aside>
-                        </section>
-                    </aside>
-                </section>
-            </section>
-            <section id="about">
-                <section class="about">
-                    <h1>About</h1>
-                    <aside class="info">
-                        <aside class="person">
-                            <aside class="img">
-                                <img src="img/lucas_silveira.webp" alt="lucas silveira">
-                            </aside>
-                            <aside class="container">
-                                <div>
-                                    <h2>Lucas Silveira</h2>
-                                    <p>“I started programming at age 8, making scripts for Windows computers. At 11, I
-                                        became interested in more advanced levels. I decided to start a big project,
-                                        called
-                                        LGrow. At 12, I delved into low-level programming, refining the project several
-                                        times. Today , with my partner Eduardo Bandeira, we founded BFlex”</p>
-                                </div>
-                                <div class="socialMedia">
-                                    <a href="https://github.com/lucasFelixSilveira" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            fill="none" class="github">
-                                            <title>GitHub</title>
-                                            <path
-                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                                fill="currentColor" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </aside>
-                        </aside>
-                        <aside class="person">
-                            <aside class="img">
-                                <img src="img/eduardo_bandeira.webp" alt="eduardo bandeira">
-                            </aside>
-                            <aside class="container">
-                                <div>
-                                    <h2>Eduardo Bandeira</h2>
-                                    <p>Galderio, passionate about C, Asm and LISP, delves into Tensor Calculus, Control
-                                        Theory and Quantum Physics. By joining BFlex, he becomes one of the main brains
-                                        behind the language, contributing to its development and evolution.</p>
-                                </div>
-                                <div class="socialMedia">
-                                    <a href="https://github.com/EngBandeira" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            fill="none" class="github">
-                                            <title>GitHub</title>
-                                            <path
-                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                                fill="currentColor" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </aside>
-                        </aside>
-                        <aside class="person">
-                            <aside class="img">
-                                <img src="img/renato_fermi.webp" alt="Renato Fermi">
-                            </aside>
-                            <aside class="container">
-                                <div>
-                                    <h2>Renato Fermi</h2>
-                                    <p>Proud father, devoted educator for life. System Architect, C language specialist;
-                                        Deep experienced on retail and wholesale. Gaming and training new programmer
-                                        generation since 2018.</p>
-                                </div>
-                                <div class="socialMedia">
-                                    <a href="https://github.com/repiazza" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            fill="none" class="github">
-                                            <title>GitHub</title>
-                                            <path
-                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                                fill="currentColor" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </aside>
-                        </aside>
-                        <aside class="person">
-                            <aside class="img">
-                                <img src="img/heitor_ferreira.webp" alt="Heitor Ferreira">
-                            </aside>
-                            <aside class="container">
-                                <div>
-                                    <h2>Heitor Ferreira</h2>
-                                    <p>none</p>
-                                </div>
-                                <div class="socialMedia">
-                                    <a href="https://github.com/Hector2523" target="_blank">
-                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                            fill="none" class="github">
-                                            <title>GitHub</title>
-                                            <path
-                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                                fill="currentColor" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </aside>
-                        </aside>
-                </section>
-            </section>
-            <section id="download">
-                <section class="container">
-                    <h1>Coming soon<span class="one">.</span><span class="two">.</span><span class="three">.</span></h1>
-                </section>
-            </section>
-        </main>
-        <footer>
-            <section>
-                <h2>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M13.392 10.4362L14.8106 9.0176C14.1031 8.38476 13.169 8 12.145 8C9.93588 8 8.14502 9.79086 8.14502 12C8.14502 14.2091 9.93588 16 12.145 16C13.2563 16 14.2617 15.5468 14.9866 14.8152L13.674 13.5026L13.4646 13.503C13.1124 13.8124 12.6506 14 12.145 14C11.0405 14 10.145 13.1046 10.145 12C10.145 10.8954 11.0405 10 12.145 10C12.6166 10 13.0501 10.1632 13.392 10.4362Z"
-                            fill="currentColor" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3ZM12 5C15.866 5 19 8.13401 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 8.13401 8.13401 5 12 5Z"
-                            fill="currentColor" />
-                    </svg>
-                    BFlex corp
-                </h2>
-                <nav>
-                    <a href="https://github.com/BFlex-lang" target="_blank">
-                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                            <title>GitHub</title>
-                            <path
-                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                fill="currentColor" />
-                        </svg>
-                    </a>
-                </nav>
-            </section>
-        </footer>
-    </div>
-
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            toggle();
-        })
-    </script>
-
-    <script src="JS/menu.js"></script>
-    <script src="JS/colors.js"></script>
-    <script src="JS/navigation.js"></script>
-</body>
+          </div>
+          <div class="text">
+            <p class="title">Instituição da pagamento</p>
+            <p class="description">Precisa de uma plataforma melhor para gerir seus pagamentos/produtos? a BFlex é sua solução.</p>
+          </div>
+        </div>
+        <div class="embed" style="--color: #7359a4;">
+          <div class="icon">
+            <div class="bg">
+              <ion-icon name="hardware-chip-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="text">
+            <p class="title">Linguagem de programação</p>
+            <p class="description"><span class="alert">[Temporarimante pausado]</span> BFlex-lang surgiu para tentar substituir Java e C de alguns projetos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="side-c"></div>
+    </section>
+  </body>
 </html>

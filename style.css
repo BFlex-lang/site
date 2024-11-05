@@ -1,0 +1,166 @@
+:root {
+  --lateral: 12vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+section {
+  overflow: hidden;
+}
+
+body > * {
+  display: flex;
+}
+
+.side-a,
+.side-b,
+.side-c {
+  height: 100%;
+  z-index: 1;
+}
+
+.side-a,
+.side-c {
+  width: var(--lateral);
+}
+
+.side-b {
+  width: calc(100vw - var(--lateral) * 2);
+}
+
+.side-b,
+.side-c {
+  border-left: #ccc7 2px dashed;
+}
+
+section#top h1 {
+  font-size: 54px;
+  font-family: 'Roboto';
+  font-weight: bold 800;
+}
+
+section#top h2 {
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+section#top h3 {
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+section#top .text {
+  width: 37vw;
+  transform: translateX(-20px);
+}
+
+section#top > * {
+  display: flex;
+  align-items: center;
+}
+
+button.type-1,
+button.type-2 {
+  padding: 10px 27px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  background: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.space {
+  margin-left: 5px;
+}
+
+button.type-1:hover,
+button.type-2 {
+  background: #000;
+  color: #fff;
+}
+
+.scroll {
+  font-size: 18px;
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  font-family: 'Poppins';
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.scroll > ion-icon {
+  padding: 0px 12px;
+}
+
+section#top {
+  height: 90vh;
+}
+
+section#products {
+  border-top: #ccc 2px solid;
+  border-bottom: #ccc 2px solid;
+  height: 200px;
+}
+
+section#products .side-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section#products .embed {
+  width: 400px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.embed .icon {
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.embed .icon .bg {
+  background: var(--color);
+  padding: 17px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.embed .text .title {
+  color: var(--color);
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.embed .text .description {
+  color: #111;
+  font-family: 'Inter';
+  font-size: 13px;
+}
+
+span.alert {
+  color: rgb(240, 116, 7);
+  font-weight: bold;
+}
